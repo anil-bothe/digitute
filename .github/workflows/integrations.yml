@@ -23,7 +23,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+    
+    - name: Install dependancy
     - run: yarn && yarn build && yarn export
+    
+    - name: Add .nojekyll file
+    - run: touch ./out/.nojekyll
+    
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
