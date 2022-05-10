@@ -18,12 +18,15 @@ jobs:
         node-version: [12.x]
 
     steps:
-    - provider: pages 
-    - local_dir: out # Directory to push to the gh-pages branch
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn && yarn build && yarn export
+    - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: out
 
