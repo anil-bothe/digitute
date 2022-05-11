@@ -9,6 +9,7 @@ export default function Home() {
         <title>Python classes</title>
         <meta name="description" content="Aurangabad's top python classes" />
         <meta name="google-site-verification" content="nfWt5xKu4sRBR9onwzf7oMAa68SE7O1v-pr_5sjWJAg" />
+        <meta name="msvalidate.01" content="F2EFB734FE83C1EBBC9D1782E4DA10AF" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
