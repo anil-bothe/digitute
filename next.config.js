@@ -8,8 +8,8 @@ const nextConfig = {
     loader: "akamai",
     path: ""
   },
-  basePath: "/digitute",
-  assetPrefix: "/digitute"
+  basePath: "",
+  assetPrefix: ""
 }
 
 module.exports = nextConfig
