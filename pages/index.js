@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        Aurangabad&apos;s Top <a href="#">Python Classes</a>
+        Python classes in <span style={{color: "#0066ff"}}>Aurangabad</span>
         </h1>
         <p style={{color: "tan"}}>
           Website under construction. Very soon website will update!
