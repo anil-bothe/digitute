@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Python classes</title>
         <meta name="description" content="Aurangabad's top python classes" />
+        <meta name="google-site-verification" content="nfWt5xKu4sRBR9onwzf7oMAa68SE7O1v-pr_5sjWJAg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
