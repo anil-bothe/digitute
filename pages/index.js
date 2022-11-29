@@ -22,7 +22,6 @@ export default function Home() {
         </p>
         <p className={styles.description}>
            For enquiry : <a style={{color: "#ac7b3b"}} href="mailto:anil_bothe@yahoo.com">click here</a> <br/>
-           Feel free to contact: 8180 883848
         </p>
 
         <div className={styles.grid}>
